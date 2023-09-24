@@ -76,3 +76,19 @@ p {
     background: url('lady.jpg');
     color: #900e0ebb;
   }
+
+@media (max-width: 420px){
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 4px;
+  }
+  
+  h2 span {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 13px;
+  }
+}
